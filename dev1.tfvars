@@ -1,0 +1,14 @@
+name                   = "octank-app"
+availability_zones     = ["us-east-1a", "us-east-1b"]
+private_subnets        = ["10.0.10.0/24", "10.0.11.0/24"]
+public_subnets         = ["10.0.0.0/24", "10.0.1.0/24"]
+aws_ecr_repository_url = "public.ecr.aws/p4g8a9e5/httpd"
+environment            = "dev-1"
+region                 = "us-east-1"
+cidr                   = "10.0.0.0/16"
+container_cpu          = 256
+container_memory       = 512
+tag                    = "latest"
+service_desired_count  = "1"
+container_port         = 80
+health_check_path      = "/"

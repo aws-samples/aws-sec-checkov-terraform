@@ -1,0 +1,7 @@
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+.terraform/
+env/
+checkov.result.txt
+.DS_Store
