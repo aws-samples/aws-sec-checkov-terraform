@@ -1,4 +1,4 @@
-# Terraform example code to performa Checkov analysis ###
+# Terraform example code to be analysed by Checkov ###
 The objective is to create a pipeline to automate the security analysis and execution of infrastructure as code (terraform). The terraform code is just a sample that can be used to perform Checkov analysis.
 
 ### Checkov
